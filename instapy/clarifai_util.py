@@ -5,7 +5,7 @@ from clarifai.rest import ClarifaiApp, Image as ClImage
 
 def check_image(browser, clarifai_api_key, img_tags, logger, full_match=False):
     """Uses the link to the image to check for invalid content in the image"""
-    clarifai_api = ClarifaiApp(api_key=clarifai_api_key)
+    clarifai_api = ClarifaiApp(api_key=bda3d29508964a3cb7ffc181565dce61)
 
     img_link = get_imagelink(browser)
     # Uses Clarifai's v2 API

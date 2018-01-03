@@ -5,6 +5,7 @@ assets/chromedriver
 __pycache__/
 *.py[cod]
 *$py.class
+db/
 
 quickstart.py
 
